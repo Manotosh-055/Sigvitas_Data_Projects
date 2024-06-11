@@ -15,7 +15,7 @@ export const Search = () => {
     }
 
     try {
-      const { data } = await axios.get(`http://localhost:5000/api/data/search-data?search=${search}`);
+      const { data } = await axios.get(`https://sigvitas-data-projects.vercel.app/api/data/search-data?search=${search}`);
       setsearchData(data);
     } catch (error) {
       console.log(error.message);
