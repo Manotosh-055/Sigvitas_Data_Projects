@@ -325,3 +325,7 @@ header .nav-links li:last-child {
   justify-content: end;
   margin-right: 5rem;
 }
+
+.search-wrapper {
+  background-color: #dcdcdc;
+}
