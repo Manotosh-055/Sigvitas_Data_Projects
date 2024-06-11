@@ -12,7 +12,7 @@ const Home = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get("http://localhost:5000/api/data/get-data");
+                const response = await axios.get("https://sigvitas-data-projects.vercel.app/api/data/get-data");
                 setData(response.data);
             } catch (error) {
                 console.log(error);

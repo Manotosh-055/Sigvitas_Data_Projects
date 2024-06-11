@@ -31,7 +31,7 @@ const Login = () => {
                 },
             };
             const { data } = await axios.post(
-                "http://localhost:5000/api/user/login",
+                "https://sigvitas-data-projects.vercel.app/api/user/login",
                 {
                     email,
                     password,

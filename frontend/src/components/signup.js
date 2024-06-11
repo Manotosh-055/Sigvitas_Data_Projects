@@ -35,7 +35,7 @@ const Signup = () => {
                 },
             };
             const { data } = await axios.post(
-                "http://localhost:5000/api/user/register",
+                "https://sigvitas-data-projects.vercel.app/api/user/register",
                 {
                     name,
                     email,

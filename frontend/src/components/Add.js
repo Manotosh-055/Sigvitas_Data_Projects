@@ -40,7 +40,7 @@ export const Add = () => {
         },
       };
       const { data } = await axios.post(
-        "http://localhost:5000/api/data/add-data",
+        "https://sigvitas-data-projects.vercel.app/api/data/add-data",
         {
           documentNo,
           appSerialNumber,
